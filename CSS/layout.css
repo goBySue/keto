@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+html {
+	height: 100%;
+	font-size: 14px;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 81.9%;
+	padding-left: 4.55%;
+	padding-right: 4.55%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+	box-shadow: 1 #2e5543 ;
+}
+
+nav {
+	width: 25%;
+	float: left;
+	margin: 6% 2% 0% 0%;
+}
+article {
+	width: 73%;
+	float: left;
+	font-size: 0.8em;
+	text-align: justify;
+}
+
+nav ul li {
+	font-size: 0.8em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	display: block;
+	margin-bottom: 8%;
+}
+nav ul li a:visited {
+	color: #327559;
+}
+nav ul li a:hover {
+	background-color: #327559;
+	color: white;
+}
+nav ul li a:focus {
+	outline: thin dotted;
+}
+nav ul li a:hover, nav ul li a:active {
+	outline: 0;
+}
+body h1 {
+	margin: 1%;
+	font-size: 1.5em;
+}
+
+body article h1 {
+	font-size: 1.15em;
+}
+
+header img {
+	float: none;
+	width: 96%;
+	margin: 2% 2% 0% 2%;
+}
+body p, body address {
+	margin: 3.5% 1%;
+	font-size: 1em;
+	font-style: normal;
+	height: 100%;
+}
+
+footer {
+	text-align: center;
+	font-size: 0.6em;
+	margin-top: 4%;
+	border-top: 3px solid #164532;
+	
+	clear: both;
+	padding-bottom: 20px;
+}
+
+/* =============================================
+	Tablet layout styles used by devices
+	481px to 768px and cascaded to larger 
+	devices.
+   =============================================
+*/
+
+
+@media only screen and (min-width: 481px) {
+html, body {
+	font-size: 16px;
+}
+
+body {
+	width: 89.9%;
+	padding-left: 1.55%;
+	padding-right: 1.55%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+	border: thin solid #09563a;
+
+}
+
+header h1 {
+   font-size: 2.2em;
+}
+
+body article h1 {
+   font-size: 1.75em;
+}
+
+article {
+	width: 94%;
+	float: none;
+	margin: 0px auto;
+}
+
+article img {
+	float: right;
+	width: 40%;
+	margin: 0% 2% 2% 2%;
+}
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: thin solid #00855B;
+	border-collapse: collapse;
+}
+nav ul li a {
+	margin-bottom: 0;
+}
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+
+
+footer {
+	font-size: 0.9em;
+}
+
+
+/* =============================================
+	Desktop layout styles used by  devices
+	769px and larger.
+   =============================================
+*/
+
+@media only screen and (min-width: 769px) {
+html, body {
+	font-size: 20px;
+}
+
+html {
+	margin: 0px auto;
+}
+body {
+	width: 88.2%;
+	max-width: 900px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	border: thin solid #09563a;
+	background-color: white;
+}
+}
+}

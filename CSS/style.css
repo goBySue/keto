@@ -1,0 +1,15 @@
+* {
+    font-family: "Source Sans Pro";
+}
+
+article#intro {
+    font-size: 24px;
+}
+
+img {
+    width: 300px;
+}
+
+html {
+background-image: url(../CSS/bgImage.jpg);
+}
